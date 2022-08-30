@@ -1,0 +1,4 @@
+baseURL = "https://codingletters.github.io/"
+languageCode = "en-us"
+title = "Coding Letters"
+theme="hugo-PaperMod"

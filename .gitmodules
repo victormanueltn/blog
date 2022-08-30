@@ -1,0 +1,4 @@
+[submodule "codinglettersblog/public"]
+	path = codinglettersblog/public
+	url = https://github.com/victormanueltn/codingletters.github.io.git
+	branch = main
