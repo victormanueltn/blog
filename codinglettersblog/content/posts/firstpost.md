@@ -17,6 +17,6 @@ I have two main motivations for starting this blog:
 
 I am very excited about this new adventure and I am looking forward to receiving your feedback!
 
-Warm regards,
+Warm regards,   
 
 Victor Trejo.
