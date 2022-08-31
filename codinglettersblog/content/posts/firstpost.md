@@ -11,7 +11,7 @@ My name is Victor Trejo and I am passionate about programming. In this blog, I w
 
 I have two main motivations for starting this blog:
 
-- I want to give back to the community. We often talk about how the internet can be a hostile place, but we easily forget how often we receive quality help for free from people demanding nothing in return. This is my way of humbly saying thanks to all those who have selflessly helped me in my journey.
+- I want to give back to the community. We often talk about how the internet can be a hostile place, but we easily forget how often we receive quality help for free. This is my way of humbly saying thanks to all those who have selflessly helped me in my journey.
 
 - I want us to learn together. Learning is better when it's a shared experience.
 
