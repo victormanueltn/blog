@@ -9,7 +9,7 @@ I have been thinking about functions and design patterns and how they resemble o
 
 ## Stumbling upon a function
 
-Let's start by examining a simple code. With it, a chipmunk is keeping track of the nuts surplus it gathers every month.
+Let's start by examining some code written in Rust. With it, a chipmunk is keeping track of the nuts surplus it gathers every month.
 
 ``` rs
 // January
@@ -203,9 +203,9 @@ println!(
 
 The initialization looks cleaner now since we don't need to worry about the `found` field of the `MonthlyNutsInventory` structure. This avoids dangerous miscalculations of nuts surplus during winter.
 
-Let's take a step back and see what happened. Adding the `create` associated function allowed us to protect the member variables of the `MonthlyNutsInventory` structure; The structure `MonthlyNutsInventory` no longer exposes its internal representation. This corresponds to a design pattern called the **Static Creation Method**. It is **static** because it is invoked by the structure, no initialized instance of the structure is required. It **creates** a new instance of the structure and returns it. A **method** or associated function is used so that the private internal representation of the structure can be initialized.
+Let's take a step back and see what happened. Adding the `create` associated function allowed us to protect the member variables of the `MonthlyNutsInventory` structure; The structure `MonthlyNutsInventory` no longer exposes its internal representation. This corresponds to a design pattern called the **Static Factory Method**. It is **static** because it is invoked by the structure, no instance of the structure is required. It is called a **factory** because it creates a new instance of the structure and returns it. A **method** or associated function is used so that the private internal representation of the structure can be initialized.
 
-Now that we are familiar with the **Static Creation Method**, we may use it if we encounter the same situation again. A useful definition of a design pattern might be: a design pattern is a solution to a software design problem. In this case, the problem was a needlessly public attribute and the need to initialize it. The solution was using a static creation method.
+Now that we are familiar with the **Static Factory Method**, we may use it if we encounter the same situation again. A useful definition of a design pattern might be: a design pattern is a solution to a software design problem. In this case, the problem was a needlessly public attribute and the need to initialize it. The solution was using a static factory method.
 
 The name `create` is perfectly fine. It describes clearly and concisely what the function is doing. However, Rust programmers might be scratching their heads over this choice. There is a very well-known alternative: `new`. It is a simple change of name, but it will help Rust developers understand the intention more quickly because we are now adopting standard vocabulary.
 
