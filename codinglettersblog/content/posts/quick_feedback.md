@@ -1,6 +1,6 @@
 ---
-title: "Quick feedback in video games and coding"
-date: 2024-01-08T18:45:01+02:00
+title: "Quick_feedback"
+date: 2024-02-11T11:32:25+01:00
 ---
 
 Dear reader,
@@ -20,3 +20,4 @@ In the 1950s, a developer would write their program in coding sheets. A keypunch
 Fast forward to 2024, and you are capable of compiling and running your program multiple times a minute. You don't need to wait for a report, you can actually inspect your program during execution with a debugger. The feedback loop has grown so short, that some people write their tests *before* their code! 
 
 The fast feedback loops that we enjoy today help us go farther. They render mistakes less punishing and make learning faster. Appreciating this point during architectural decisions or during the design of our test suites can benefit us. Taking care of our feedback loop in our day-to-day work contributes to our productivity and to our professional satisfaction.
+
