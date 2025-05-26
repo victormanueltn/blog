@@ -1,6 +1,6 @@
 ---
 title: "Of functions and design patterns"
-date: 2024-05-24T18:45:01+02:00
+date: 2025-05-24T18:45:01+02:00
 ---
 
 Dear reader,
