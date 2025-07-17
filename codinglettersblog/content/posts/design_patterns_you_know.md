@@ -6,7 +6,7 @@ draft: false
 
 Dear reader,
 
-As software grows complex and care is given to its structure, [design patterns](https://victormanueltn.github.io/codingletters.github.io/) will appear. Sometimes they will be used intentionally and sometimes inadvertently. We might intuitively reach for patterns in our mental repertoire, or we might reinvent a long-known solution for a seemingly new problem. Regardless of our awareness of them, design patterns will show up.
+As software grows complex and care is given to its structure, [design patterns](https://victormanueltn.github.io/codingletters.github.io/posts/functions_and_design_patterns/) will appear. Sometimes they will be used intentionally and sometimes inadvertently. We might intuitively reach for patterns in our mental repertoire, or we might reinvent a long-known solution for a seemingly new problem. Regardless of our awareness of them, design patterns will show up.
 
 If we strive to be intentional about the structure of our software, we will be better equipped by being able to recognize design patterns. A good familiarity with design patterns will allow us to willingly invoke them when required. When designing software, we will have a richer vocabulary, more colors in our palette. 
 
