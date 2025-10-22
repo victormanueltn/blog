@@ -1,7 +1,6 @@
 ---
-title: "Quick_feedback"
+title: "Quick feedback"
 date: 2025-22-10T11:32:25+01:00
-draft: false
 ---
 
 Dear reader,
